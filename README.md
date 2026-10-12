@@ -5,7 +5,7 @@
 - **Member:** Christian U.
 
 ## Live Site (Web4)
-🔗 [Web4 link goes here](https://)
+🔗 https://in-info-web4.luddy.indianapolis.iu.edu/~jasoluu/n315/midtermNav/
 
 ## Assignment Details
 This is a group project. The team had to build a fully responsive website that:
