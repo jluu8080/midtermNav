@@ -1,0 +1,15 @@
+{
+  "name": "midtermnav-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve":"live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "author": "Jason L & Christian U",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.105.1"
+  }
+}
