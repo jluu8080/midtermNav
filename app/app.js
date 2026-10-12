@@ -17,7 +17,7 @@ function initApp()
     window.addEventListener("hashchange", changeRoute);
 }
 
-initApp();
+// initApp();
 
 
 // Mobile navigation menu
