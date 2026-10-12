@@ -51,7 +51,6 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 16px;
   }
 }
-<<<<<<< Updated upstream
 .aboutPage {
   background-color: #f5f5f5;
   min-height: 100vh;
@@ -78,57 +77,6 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto 20px;
 }
 
-nav {
-  background-color: white;
-  padding: 20px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid #e5e7eb;
-}
-nav h2 {
-  font-size: 26px;
-  color: #222222;
-  margin: 0;
-}
-nav .navLinks {
-  display: flex;
-  gap: 30px;
-}
-nav .navLinks a {
-  text-decoration: none;
-  color: #333333;
-  font-size: 18px;
-}
-nav .navLinks a:hover {
-  color: #4967a9;
-}
-nav #menuBtn {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 28px;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 600px) {
-  nav {
-    padding: 15px 20px;
-    flex-wrap: wrap;
-  }
-  nav #menuBtn {
-    display: block;
-  }
-  nav .navLinks {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    gap: 15px;
-    padding-top: 20px;
-  }
-  nav .navLinks.open {
-    display: flex;
-=======
 .photosPage {
   display: flex;
   flex-direction: column;
@@ -228,6 +176,57 @@ nav #menuBtn {
 @media (max-wdith: 800px) {
   .contactCardsContainer .contactCard {
     max-height: 200px;
->>>>>>> Stashed changes
+  }
+}
+nav {
+  background-color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e5e7eb;
+}
+nav h2 {
+  font-size: 26px;
+  color: #222222;
+  margin: 0;
+}
+nav .navLinks {
+  display: flex;
+  gap: 30px;
+}
+nav .navLinks a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+}
+nav .navLinks a:hover {
+  color: #4967a9;
+}
+nav #menuBtn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 15px 20px;
+    flex-wrap: wrap;
+  }
+  nav #menuBtn {
+    display: block;
+  }
+  nav .navLinks {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    padding-top: 20px;
+  }
+  nav .navLinks.open {
+    display: flex;
   }
 }
