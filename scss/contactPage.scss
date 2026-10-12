@@ -1,0 +1,67 @@
+.contactPage
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:35px;
+
+    // background-color: blue;
+
+    .contactCardsContainer
+    {
+        // background-color: red;
+        width:100%;
+        height:100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        .contactCard
+        {
+            background-color: bisque;
+
+            max-width: 100%;
+            min-height: 150px;
+
+            min-width:100px;
+            min-height: 50px;
+
+            padding:15px;
+
+            border: 1px solid black;
+            border-radius: 15px;
+
+            p
+            {
+                max-width:50ch;
+            }
+
+            .contactLinks
+            {
+                width:100%;
+                min-height: 25px;
+                
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                // background-color: gray;
+            }
+
+        }
+    }
+}
+
+@media (max-wdith: 800px)
+{
+    .contactCardsContainer
+    {
+        .contactCard
+        {
+            max-height:200px;
+        }
+    }
+}

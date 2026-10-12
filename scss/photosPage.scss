@@ -1,0 +1,86 @@
+.photosPage
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: red;
+    padding:35px;
+
+    .imagesList
+    {
+        display:flex;
+        justify-content: space-around;
+
+        .image1
+        {
+            min-width:200px;
+            min-height:200px;
+
+            max-width:400px;
+            max-height:400px;
+
+            background-image: url(../images/cat_w_tongueOut.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .image2
+        {
+            min-width:200px;
+            min-height:200px;
+
+            max-width:400px;
+            max-height:400px;
+
+            background-image: url(../images/catFingerInMouth.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .image3
+        {
+            min-width:200px;
+            min-height:200px;
+
+            max-width:400px;
+            max-height:400px;
+
+            background-image: url("../images/guyOnStreet.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .image4
+        {
+            min-width:200px;
+            min-height:200px;
+
+            max-width:400px;
+            max-height:400px;
+
+            background-image: url("../images/randomDude.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+    }
+
+}
+
+@media (max-width:800px) {
+    .photosPage
+    {
+        .imagesList
+        {
+            flex-direction:column;
+            flex-wrap: wrap;
+            gap:15px
+        }
+    }
+}
