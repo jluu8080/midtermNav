@@ -1,0 +1,31 @@
+.aboutPage {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding: 60px 20px;
+    text-align: center;
+
+    h1 {
+        font-size: 42px;
+        color: #222222;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 28px;
+        color: #4967a9;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #555555;
+        line-height: 1.8;
+        max-width: 700px;
+        margin: 0 auto 20px;
+    }
+}
+
+
+

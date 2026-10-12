@@ -3,20 +3,13 @@ export default `
     <h1>About Us</h1>
 
     <h2>Who We Are</h2>
-    <p>Welcome to our website! </p>
+    <p>We are students working on a project.</p>
 
     <h2>Our Mission</h2>
-    <p>Our goal is to create a website that is easy
-    to work, looks good , and educational .</p>
+    <p>Our goal is to create a website that is
+    easy to use, looks good, and helps people learn.</p>
 
     <h2>Meet Our Team</h2>
-    <p>learn the people behind this project</p>
+    <p>Learn about the people who made this website.</p>
 </section>
 `;
-
-
-
-
-
-
-

@@ -1,10 +1,13 @@
-export default
-`
-  <section class="homePage">
-      <h1>Home Page</h1>
+export default `
+<section class="homePage">
+    <h1>Welcome to Our Website!</h1>
 
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero similique deserunt eos hic nesciunt, incidunt nulla quibusdam aliquam neque deleniti molestiae. Quo velit est consequuntur modi, vero voluptate odio nisi.</p>
-  </section>
+    <p>This is our midterm project for class.</p>
+
+    <h2>Explore Our Website</h2>
+    <p>Take a look and check out our pages.</p>
+
+    <h2>Get Started</h2>
+    <p>Use the navigation bar to explore our website.</p>
+</section>
 `;
-  
-

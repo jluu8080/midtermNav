@@ -1,3 +1,4 @@
+
 import {loadPage} from "../model/model.js";
 
 function changeRoute()
@@ -19,6 +20,24 @@ function initApp()
 initApp();
 
 
+// Mobile navigation menu
+const menuBtn = document.querySelector("#menuBtn");
+const navLinks = document.querySelector(".navLinks");
+
+if (menuBtn && navLinks) {
+    menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+    });
+
+    navLinks.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+            navLinks.classList.remove("open");
+        });
+    });
+}
+
+
+// Teammate's original commented-out code
 // import home from "../pages/home.js";
 // import about from "../pages/about.js";
 // import contact from "../pages/contact.js";
