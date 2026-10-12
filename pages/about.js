@@ -1,9 +1,22 @@
-export default
-`
+export default `
 <section class="aboutPage">
-    <h1>About Page</h1>
+    <h1>About Us</h1>
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero similique deserunt eos hic nesciunt, incidunt nulla quibusdam aliquam neque deleniti molestiae. Quo velit est consequuntur modi, vero voluptate odio nisi.</p>
+    <h2>Who We Are</h2>
+    <p>Welcome to our website! </p>
+
+    <h2>Our Mission</h2>
+    <p>Our goal is to create a website that is easy
+    to work, looks good , and educational .</p>
+
+    <h2>Meet Our Team</h2>
+    <p>learn the people behind this project</p>
 </section>
 `;
-  
+
+
+
+
+
+
+
